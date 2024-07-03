@@ -1,0 +1,29 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deactivateUsers.js",
+  "scripts": {
+    "mainScript": "node mainScript.js",
+    "createPdf": "node createPdf.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@hebcal/core": "^4.5.1",
+    "axios": "^1.6.2",
+    "axios-cookiejar-support": "^4.0.7",
+    "date-holidays": "^3.23.1",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "jewish-dates-core": "^2.0.12",
+    "js-beautify": "^1.14.11",
+    "jsdom": "^22.1.0",
+    "pdfkit": "^0.14.0",
+    "puppeteer": "^22.4.0",
+    "qs": "^6.11.2",
+    "readline": "^1.3.0",
+    "tough-cookie": "^4.1.3",
+    "xlsx": "^0.18.5"
+  }
+}
